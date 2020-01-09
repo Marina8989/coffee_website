@@ -28,23 +28,37 @@ header p {
 }
 .story h2 {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 1.7rem;
 }
 .story p {
   text-align: center;
   line-height: 1.5;
 }
+.story span {
+  color: #579377;
+}
 .story .story_images {
   display: flex;
   justify-content: center;
-  padding: 1rem 0 2rem 0;
+  padding: 2rem 0 4rem 0;
 }
 .story .story_images img {
   border: 1px solid grey;
   border-radius: 50%;
   margin: 1rem;
+  width: 1rem;
 }
 .story .story_images h6 {
   text-align: center;
+}
+.second-image {
+  background: #163e28;
+}
+.second-image .cover-image {
+  height: 30vh;
+  width: 100%;
+  background-image: url(../img/cover-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
