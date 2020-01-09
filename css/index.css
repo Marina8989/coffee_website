@@ -23,7 +23,7 @@ header p {
   font-size: 2rem;
 }
 .story {
-  background: #163e28;
+  background: #516c5d;
   color: white;
 }
 .story h2 {
@@ -69,7 +69,7 @@ header p {
   background-position: center;
 }
 .third-section {
-  background: #163e28;
+  background: #1d452f;
   color: #fff;
 }
 .third-section .third-section-div {
@@ -107,9 +107,11 @@ header p {
 .section-four {
   display: flex;
   justify-content: space-between;
+  margin: 2rem;
 }
 .section-four .div4 {
   padding-top: 3rem;
+  margin-right: 2rem;
 }
 .section-four .div4 h2 {
   font-size: 1.7rem;
@@ -117,4 +119,24 @@ header p {
 }
 .section-four .div4 p {
   padding-top: 2.5rem;
+}
+.second-image2 {
+  background: #0e1f16;
+}
+.second-image2 .cover-image2 {
+  height: 30vh;
+  width: 100%;
+  background-image: url(../img/coffee_bean.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fifth-section {
+  background: #215b3d;
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+}
+.fifth-section h2 {
+  padding-bottom: 1rem;
+  text-decoration: underline;
 }
