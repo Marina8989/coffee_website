@@ -104,3 +104,17 @@ header p {
   color: #579377;
   background: #0e1f16;
 }
+.section-four {
+  display: flex;
+  justify-content: space-between;
+}
+.section-four .div4 {
+  padding-top: 3rem;
+}
+.section-four .div4 h2 {
+  font-size: 1.7rem;
+  color: darkgrey;
+}
+.section-four .div4 p {
+  padding-top: 2.5rem;
+}
