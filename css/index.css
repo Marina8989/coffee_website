@@ -6,14 +6,32 @@
 header {
   background-image: url(../img/header_img.jpg);
   background-size: cover;
+  color: #fff;
 }
 header h1 {
   text-align: center;
-  padding: 9rem;
-  color: #fff;
+  padding: 9rem 0 4rem 0;
 }
 header h1 span {
   text-transform: uppercase;
   letter-spacing: 1rem;
   font-size: 3.5rem;
+}
+header p {
+  text-align: center;
+  padding-bottom: 8rem;
+  font-size: 2rem;
+}
+.story {
+  background: #163e28;
+  color: white;
+}
+.story h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1.7rem;
+}
+.story p {
+  text-align: center;
+  line-height: 1.5;
 }
