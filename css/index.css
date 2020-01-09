@@ -43,11 +43,17 @@ header p {
   justify-content: center;
   padding: 2rem 0 4rem 0;
 }
+.story .story_images:hover {
+  color: #0e1f16;
+}
 .story .story_images img {
   border: 1px solid grey;
   border-radius: 50%;
   margin: 1rem;
   width: 1rem;
+}
+.story .story_images img:hover {
+  border-radius: 20%;
 }
 .story .story_images h6 {
   text-align: center;
@@ -71,10 +77,30 @@ header p {
   justify-content: space-around;
   padding: 6rem;
 }
+.third-section .third-section-div img {
+  border-radius: 50%;
+  border: 1px solid grey;
+}
 .third-section .third-section-div .third-section-div2 {
   width: 70%;
 }
 .third-section .third-section-div .third-section-div2 .firstP {
   text-transform: uppercase;
   padding-bottom: 1rem;
+  color: #579377;
+}
+.third-section .third-section-div .third-section-div2 .secondP {
+  margin-bottom: 2rem;
+}
+.third-section .third-section-div .third-section-div2 a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background: grey;
+  padding: 10px;
+}
+.third-section .third-section-div .third-section-div2 a:hover {
+  color: #579377;
+  background: #0e1f16;
 }
