@@ -38,21 +38,37 @@
 }
 
 .second-image {
-    // background-image: @coverImage;
-    background: @darkGreen;
-    // background-repeat: no-repeat;
-    // background-position: center;
-    //z-index: 2;
+
+    background: @darkerGreen;
 
 
     .cover-image {
         height: 30vh;
         width: 100%;
-        //background: green;
+
         background-image: @coverImage;
         background-repeat: no-repeat;
         background-position: center;
-        //z-index: 5;
 
+    }
+}
+
+.third-section {
+    background: @darkGreen;
+    color: #fff;
+
+    .third-section-div {
+        display: flex;
+        justify-content: space-around;
+        padding: 6rem;
+
+        .third-section-div2 {
+            width: 70%;
+
+            .firstP {
+                text-transform: uppercase;
+                padding-bottom: 1rem;
+            }
+        }
     }
 }
